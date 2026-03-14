@@ -170,7 +170,7 @@ research-literature-agent/
 
 Open [`demo.ipynb`](demo.ipynb) in Google Colab:
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/research-literature-agent/blob/main/demo.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aliakarma/research-literature-agent/blob/main/demo.ipynb)
 
 1. Click the 🔑 **Secrets** icon in the left sidebar
 2. Add a secret: **Name** = `OPENAI_API_KEY`, **Value** = `sk-...`
