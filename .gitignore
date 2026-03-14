@@ -1,0 +1,84 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# .gitignore
+# Files and directories that should NEVER be committed to Git.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── CRITICAL: Secret files ────────────────────────────────────────────────────
+# Never commit API keys or credentials
+.env
+.env.*
+!.env.example        # .env.example (the template) IS committed — it has no real keys
+secrets.json
+credentials.json
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+
+# ── Testing and coverage ──────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+
+# ── Type checking ─────────────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+
+# ── Linting ───────────────────────────────────────────────────────────────────
+.ruff_cache/
+
+# ── Generated output files ────────────────────────────────────────────────────
+# Outputs are generated at runtime — don't commit them
+outputs/
+*.txt
+!README.md     # README is a .md file, not a generated .txt
+!docs/*.md     # docs are committed
+
+# ── FAISS index files (can be large) ─────────────────────────────────────────
+*.faiss
+*.pkl
+faiss_index/
+
+# ── Jupyter notebooks (checkpoints only) ─────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+
+# ── Windows ───────────────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
