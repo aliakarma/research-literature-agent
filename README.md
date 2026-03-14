@@ -420,22 +420,6 @@ Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) for:
 
 ---
 
-## Citation
-
-If you use this system in your research, please cite:
-
-```bibtex
-@software{research_literature_agent_2025,
-  title   = {Research Literature Review Agent},
-  author  = {Your Name},
-  year    = {2025},
-  url     = {https://github.com/YOUR_USERNAME/research-literature-agent},
-  version = {1.0.0},
-  license = {MIT}
-}
-```
-
----
 
 ## Documentation Index
 
