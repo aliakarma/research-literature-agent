@@ -69,7 +69,7 @@ largely unexplored in the agentic setting...
 
 ```
 ┌───────────────────────────────────────────────────────────────────┐
-│                  RESEARCH LITERATURE REVIEW AGENT                  │
+│                  RESEARCH LITERATURE REVIEW AGENT                 │
 └───────────────────────────────────────────────────────────────────┘
 
   User Query: "Agentic AI for climate prediction"
@@ -184,7 +184,7 @@ Open [`demo.ipynb`](demo.ipynb) in Google Colab:
 
 ```bash
 # 1. Clone
-git clone https://github.com/YOUR_USERNAME/research-literature-agent.git
+git clone https://github.com/aliakarma/research-literature-agent.git
 cd research-literature-agent
 
 # 2. Virtual environment
